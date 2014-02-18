@@ -5,7 +5,7 @@ def solution(A):
     rightSum = sum(A) - leftSum
     # get the difference
     minDiff = abs(leftSum - rightSum)
-    
+
     # iterate through list starting from second element
     for i in range(1, len(A) - 1):
         # add next element to left sum
@@ -16,5 +16,6 @@ def solution(A):
         diff = abs(leftSum - rightSum)
         # get latest minimum difference
         minDiff = min([minDiff, diff])
+
     # return result    
     return minDiff
