@@ -14,9 +14,10 @@ def reverseList(list):
         lastIndex -= 1
         if (lastIndex >= list.index(item)):
             break
-        # print the reversed list    
-        for item in list:
-            print item
+
+    # print the reversed list
+    for item in list:
+        print item
 
 # Test list 1
 list1 = [1, 2, 3, 4, 5]
